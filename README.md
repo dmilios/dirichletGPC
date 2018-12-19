@@ -1,8 +1,7 @@
 # Dirichlet-based GP Classification
 
 We provide the code of our paper:
-_Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification_
-
+_Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification_\
 that appeared in NeurIPS 2018:\
 https://nips.cc/Conferences/2018/Schedule?showEvent=11583
 

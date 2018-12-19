@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -N "https://archive.ics.uci.edu/ml/machine-learning-databases/00264/EEG Eye State.arff"
+tail --lines=+20 "EEG Eye State.arff" > EEG_Eye_State.csv
+

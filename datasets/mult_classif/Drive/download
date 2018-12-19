@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wget -N http://archive.ics.uci.edu/ml/machine-learning-databases/00325/Sensorless_drive_diagnosis.txt
+
+# converts classes so that they are in the range [0, 10]
+python3 fix_dataset.py
+

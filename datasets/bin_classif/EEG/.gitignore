@@ -1,0 +1,5 @@
+
+# ignore downloaded data
+EEG Eye State.arff
+EEG_Eye_State.csv
+

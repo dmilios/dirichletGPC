@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -N "https://archive.ics.uci.edu/ml/machine-learning-databases/00372/HTRU2.zip"
+unzip -o HTRU2
+

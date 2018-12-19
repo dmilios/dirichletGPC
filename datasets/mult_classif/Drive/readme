@@ -1,0 +1,13 @@
+
+http://archive.ics.uci.edu/ml/datasets/Dataset+for+Sensorless+Drive+Diagnosis
+
+11 classes (0 to 10)
+(it was 1 to 11 originally; it is converted by the download script)
+
+58509 instances
+48 attributes
+
+
+Training size: 48509
+Test size: 10000
+

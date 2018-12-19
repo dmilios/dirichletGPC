@@ -1,0 +1,5 @@
+
+# ingore training and test splits
+train*.txt
+test*.txt
+

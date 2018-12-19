@@ -1,0 +1,24 @@
+#!/bin/bash
+
+FILE=HTRU_2.csv
+TEST_SIZE=5000
+
+mkdir splits
+
+# change line endings
+sed -i 's/\r/\n/g' $FILE
+
+
+for i in `seq -f "%02g" 1 10`;
+do
+	cat $FILE | shuf > temp.txt
+	head -n -$TEST_SIZE temp.txt > splits/train$i''.txt
+	tail -n $TEST_SIZE temp.txt > splits/test$i''.txt
+	rm temp.txt
+done
+
+TOTAL=`wc -l $FILE | awk '{print $1}'`
+TRAINING_SIZE=$((TOTAL-TEST_SIZE))
+echo Training size: $TRAINING_SIZE
+echo Test size: $TEST_SIZE
+

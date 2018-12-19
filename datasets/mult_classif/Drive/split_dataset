@@ -1,0 +1,19 @@
+#!/bin/bash
+
+FILE=Sensorless_drive_diagnosis.txt
+TEST_SIZE=10000
+
+
+for i in `seq -f "%02g" 1 10`;
+do
+	cat $FILE | shuf > temp.txt
+	head -n -$TEST_SIZE temp.txt > splits/train$i''.txt
+	tail -n $TEST_SIZE temp.txt > splits/test$i''.txt
+	rm temp.txt
+done
+
+TOTAL=`wc -l $FILE | awk '{print $1}'`
+TRAINING_SIZE=$((TOTAL-TEST_SIZE))
+echo Training size: $TRAINING_SIZE
+echo Test size: $TEST_SIZE
+

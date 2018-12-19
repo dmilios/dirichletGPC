@@ -1,0 +1,8 @@
+#!/bin/bash
+wget -N https://archive.ics.uci.edu/ml/machine-learning-databases/magic/magic04.data
+
+# g = gamma (signal):     12332
+# h = hadron (background): 6688
+
+sed -i 's/g/0/g' magic04.data
+sed -i 's/h/1/g' magic04.data

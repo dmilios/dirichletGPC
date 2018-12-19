@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This script downloads a number of datasets available in
+# https://archive.ics.uci.edu/ml/datasets.html
+#
+# Each dataset is automatically split into training and test sets,
+# according to the local scripts.
+#
+# Running this script should be enough to have everything needed for the experiments.
+
+
+cd bin_classif
+cd EEG; bash download; bash split_dataset; cd ../
+cd HTRU2; bash download; bash split_dataset; cd ../
+cd MAGIC; bash download; bash split_dataset; cd ../
+cd MiniBoo; bash download_and_split.sh; cd ../
+cd ../
+
+cd mult_classif
+cd Drive; bash download; bash split_dataset; cd ../
+cd letter; bash download; bash split_dataset; cd ../
+cd MoCap; bash download_and_split.sh; cd ../
+cd ../
+

@@ -1,20 +1,21 @@
 # Dirichlet-based GP Classification
 
-We provide the code of our paper:
-_Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification_\
-that appeared in NeurIPS 2018:\
-https://nips.cc/Conferences/2018/Schedule?showEvent=11583
+We provide the code of our paper: \
+[Dimitrios Milios, Raffaello Camoriano, Pietro Michiardi,Lorenzo Rosasco, Maurizio Filippone. Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification. NeurIPS 2018]
+(http://www.jmlr.org/papers/volume18/16-537/16-537.pdf).
 
+
+'''
 @inproceedings{NIPS2018_7840,
-title = {Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification},
-author = {Milios, Dimitrios and Camoriano, Raffaello and Michiardi, Pietro and Rosasco, Lorenzo and Filippone, Maurizio},
-booktitle = {Advances in Neural Information Processing Systems 31},
-editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
-pages = {6008--6018},
-year = {2018},
-publisher = {Curran Associates, Inc.}
+	title = {Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification},
+	author = {Milios, Dimitrios and Camoriano, Raffaello and Michiardi, Pietro and Rosasco, Lorenzo and Filippone, Maurizio},
+	booktitle = {Advances in Neural Information Processing Systems 31},
+	editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+	pages = {6008--6018},
+	year = {2018},
+	publisher = {Curran Associates, Inc.}
 }
-
+'''
 
 
 

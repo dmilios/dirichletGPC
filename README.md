@@ -1,7 +1,7 @@
 # Dirichlet-based GP Classification
 
 We provide the code of our paper: \
-[Dimitrios Milios, Raffaello Camoriano, Pietro Michiardi,Lorenzo Rosasco, Maurizio Filippone. _Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification_. In proceedings of NeurIPS, pages 6008-6018, 2018](http://papers.nips.cc/paper/7840-dirichlet-based-gaussian-processes-for-large-scale-calibrated-classification).
+[Dimitrios Milios, Raffaello Camoriano, Pietro Michiardi,Lorenzo Rosasco, Maurizio Filippone. _Dirichlet-based Gaussian Processes for Large-scale Calibrated Classification_. In proceedings of NeurIPS, pages 6008-6018, 2018.](http://papers.nips.cc/paper/7840-dirichlet-based-gaussian-processes-for-large-scale-calibrated-classification)
 
 
 ```

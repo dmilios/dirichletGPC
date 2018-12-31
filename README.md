@@ -156,7 +156,7 @@ The **src** directory contains the following modules:
   - _evaluation.py_: code for the evaluation experiments.
   Used by **run_evaluation_experiment.py**
 
-  - _monitoring.py_: code for the evaluation experiments.
+  - _monitoring.py_: code for the monitoring experiments.
   Used by **run_monitoring_experiment.py**
 
   - _calibration.py_: Implementation of Platt scaling for post-hoc GPR calibration
